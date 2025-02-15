@@ -35,7 +35,7 @@ dotenv.config()
 app.use("/images",express.static(path.join(__dirname,"/images")))
 app.use(express.json())
 app.use(cors())
-app.use(cors({ origin: 'http://localhost:5173' }))
+app.use(cors({ origin: 'https://blogit-1-63di.onrender.com' }))
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json({ limit: '50mb' })); // for JSON payloads
