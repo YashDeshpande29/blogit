@@ -40,9 +40,9 @@ const HomePosts = ({ post }) => {
             <h3 className="font-bold uppercase text-gray-900">{post.title}</h3>
           </a>
 
-          <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
-  {post.description?.slice(0, 200) || "Description not available"}
-</p>
+           <p className='text-left md:text-lg'>
+    {post.desc.slice(0,200)+" .... Read more"}
+    </p>
 
         </div>
 
