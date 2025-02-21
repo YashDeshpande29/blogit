@@ -41,16 +41,9 @@ const HomePosts = ({ post }) => {
           </a>
 
           <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
-            {post.description
-              ? post.description.slice(0, 200)
-              : "Description not available"}
-            {post.description && (
-              <span className="text-blue-500 cursor-pointer hover:underline">
-                ...Read more
-              </span>
-              
-            )}
-          </p>
+  {post.description?.slice(0, 200) || "Description not available"}
+</p>
+
         </div>
 
         {/* "Read Blog" Button */}
