@@ -41,7 +41,7 @@ const Register = () => {
     <>
     
     <div className='w-full bg-black px-8 md:px-[200px] text-left py-4 flex justify-between items-center'>
-      <div className='text-lg font-bold text-white cursor-pointer md:text-xl '><Link to="/">MyBlog</Link></div>
+      <div className='text-lg font-bold text-white cursor-pointer md:text-xl '><Link to="/">BlogIT</Link></div>
       <div className='text-lg text-white'><Link to="/login">Log in</Link></div>
     </div>
     <div className='w-full mx-auto flex justify-center items-center h-[70vh] mt-20'>
@@ -56,11 +56,7 @@ const Register = () => {
           <div className='flex items-center justify-center space-x-2'>
            <p className='text-sm text-black'>Already have an account?</p>
            <p className="text-sm font-semibold text-black"><Link to="/login">Log In</Link></p>
-          </div>
-          <p className="px-8 pt-8 text-sm text-center text-black md:px-0">By signing in or creating an account, you agree with our <span className='text-gray-500 sm text-'>Terms & Conditions</span> and <span className='text-gray-500 sm text-'>Privacy Statement</span></p>
-          <p className="px-8 text-sm text-center text-black md:px-0">All rights reserved.
-Copyright (2006-2023) – MyBlog.com™</p>
-        </div>
+          
     </div>
     
 
