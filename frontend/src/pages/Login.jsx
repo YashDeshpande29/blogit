@@ -37,7 +37,7 @@ const handleLogin=async (e)=>{
     <>
     
     <div className='w-full px-8 py-4 text-left bg-black md:px-[200px] flex justify-between items-center'>
-      <div className='text-lg font-bold text-white cursor-pointer md:text-xl '><Link to="/">MyBlog</Link></div>
+      <div className='text-lg font-bold text-white cursor-pointer md:text-xl '><Link to="/">BlogIt</Link></div>
       <div className='text-lg text-white'><Link to="/register">Register</Link></div>
     </div>
     <div className='w-full mx-auto flex-col justify-center items-center h-[60vh] mt-40 space-y-6'>
@@ -53,9 +53,7 @@ const handleLogin=async (e)=>{
           
         </div>
         <div>{error?<p className='mt-4 text-lg font-bold text-center text-red-600'>something went wrong!</p>:""}</div>
-        <div><p className="px-8 pt-8 text-sm text-center text-black md:px-0">By signing in or creating an account, you agree with our <span className='text-gray-500 sm text-'>Terms & Conditions</span> and <span className='text-gray-500 sm text-'>Privacy Statement</span></p>
-          <p className="px-8 text-sm text-center text-black md:px-0">All rights reserved.
-Copyright (2006-2023) – MyBlog.com™</p></div>
+       
     </div>
     
 
