@@ -54,7 +54,7 @@ const HomePosts = ({ posts }) => {
                 </a>
 
                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
-  {post.description?.slice(0, 200) || "Description not available"}
+  {post.description.slice(0, 200) || "Description not available"}
 </p>
 
 
