@@ -54,15 +54,9 @@ const HomePosts = ({ posts }) => {
                 </a>
 
                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
-  {post.description?.trim().length > 0 
-    ? post.description.slice(0, 200) 
-    : "Description not available"}
-  {post.description?.trim().length > 0 && (
-    <span className="text-blue-500 cursor-pointer hover:underline">
-      ...Read more
-    </span>
-  )}
+  {post.description?.slice(0, 200) || "Description not available"}
 </p>
+
 
               </div>
 
